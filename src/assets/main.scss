@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: 'Geometria', sans-serif;
+}
+@font-face {
+  font-family: 'Geometria';
+  src: url('~@/assets/fonts/Geometria-Regular.woff2') format('woff2'),
+  url('~@/assets/fonts/Geometria-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Geometria';
+  src: url('~@/assets/fonts/Geometria-Bold.woff2') format('woff2'),
+  url('~@/assets/fonts/Geometria-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
